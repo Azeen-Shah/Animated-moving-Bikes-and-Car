@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+html,
 body {
     overflow: hidden;
 }
@@ -17,7 +18,7 @@ main {
 .bg {
     height: 100%;
     width: 100%;
-    animation: bike 3s linear infinite;
+    /* animation: bike 3s linear infinite; */
 }
 
 .track {
@@ -26,7 +27,7 @@ main {
     bottom: 0;
     height: 20vh;
     width: 800vw;
-    animation: track 6s linear infinite;
+    /* animation: track 6s linear infinite; */
 }
 
 @keyframes track {
@@ -40,7 +41,7 @@ main {
     height: 100px;
     left: 45vw;
     bottom: 15vh;
-    animation: bike 1s linear infinite;
+    /* animation: bike 1s linear infinite; */
 }
 
 .bike {
@@ -52,7 +53,7 @@ main {
 
 .bike-body {
     height: 100px;
-    animation: bike 1s linear infinite;
+    /* animation: bike 1s linear infinite; */
 }
 
 @keyframes bike {
@@ -71,7 +72,7 @@ main {
     position: absolute;
     left: 20px;
     bottom: 30px;
-    animation: bike 1s linear infinite;
+    /* animation: bike 1s linear infinite; */
 }
 
 .highroof-body {
@@ -82,14 +83,14 @@ main {
     width: 36px;
     position: relative;
     right: 145px;
-    animation: wheel 1s linear infinite;
+    /* animation: wheel 1s linear infinite; */
 }
 
 .wheel-right {
     width: 37px;
     position: relative;
     right: 100px;
-    animation: wheel 1s linear infinite;
+    /* animation: wheel 1s linear infinite; */
 }
 
 @keyframes wheel {
